@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tests problem user" thread-count="2" parallel="tests">
+    <test name="Login test with problem users">
+        <classes>
+            <class name="POM.Tests.LoginTests.TestLoginWithProblemUsers"></class>
+        </classes>
+    </test>
+    <test name="Checkout test with problem user">
+        <classes>
+            <class name="POM.Tests.CheckoutTests.TestCheckoutWithProblemUser"></class>
+        </classes>
+    </test>
+</suite>

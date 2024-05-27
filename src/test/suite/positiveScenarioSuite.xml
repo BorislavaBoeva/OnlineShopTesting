@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tests positive scenario" thread-count="6" parallel="tests">
+    <test name="Successful login test">
+        <classes>
+            <class name="POM.Tests.LoginTests.TestLoginPositiveScenario"></class>
+        </classes>
+    </test>
+    <test name="Visual check inventory picture test">
+        <classes>
+            <class name="POM.Tests.ProductTests.TestCheckProductImage"></class>
+        </classes>
+    </test>
+    <test name="Add product to shopping cart test">
+        <classes>
+            <class name="POM.Tests.ProductTests.TestAddProductsToCart"></class>
+        </classes>
+    </test>
+    <test name="Add three products to to shopping cart">
+        <classes>
+            <class name="POM.Tests.ProductTests.TestAddThreeProductsToCart"></class>
+        </classes>
+    </test>
+    <test name="Checkout test">
+        <classes>
+            <class name="POM.Tests.CheckoutTests.TestCheckoutPositiveScenario"></class>
+        </classes>
+    </test>
+    <test name="Logout test">
+        <classes>
+            <class name="POM.Tests.Logout.TestLogout"></class>
+        </classes>
+    </test>
+</suite>

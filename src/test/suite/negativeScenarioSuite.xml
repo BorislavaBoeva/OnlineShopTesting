@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tests negative scenario " thread-count="2" parallel="tests">
+    <test name="UnSuccessful login test">
+        <classes>
+            <class name="POM.Tests.LoginTests.TestLoginWithNegativeScenario"></class>
+        </classes>
+    </test>
+    <test name="Checkout test">
+        <classes>
+            <class name="POM.Tests.CheckoutTests.TestCheckoutNegativeScenario"></class>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tests check products attributes" thread-count="2" parallel="tests">
+    <test name="Add products to the shopping cart">
+        <classes>
+            <class name="POM.Tests.ProductTests.TestAddProductsToCart"></class>
+        </classes>
+    </test>
+<test name="Check picture inventory of products">
+    <classes>
+        <class name="POM.Tests.ProductTests.TestCheckProductImage"></class>
+    </classes>
+</test>
+</suite>
